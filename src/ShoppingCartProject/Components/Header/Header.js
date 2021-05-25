@@ -8,8 +8,18 @@ import { Link } from 'react-router-dom';
 
 
 const Header = (props) => {
-
     let cartItemsNumber = 0
+
+    props.cart.forEach(element => {
+        cartItemsNumber = cartItemsNumber + element.Quantity
+    });
+
+    console.log("[Header.js]  userQUant:   " + cartItemsNumber)
+
+    if(cartItemsNumber >= 100){
+        cartItemsNumber = '∞'
+    }
+    
     return (
         <Fragment>
             <div className={classes.HeaderContainer}>
@@ -38,7 +48,8 @@ const Header = (props) => {
 }
 const mapStateToProps = state => {
     return {
-        isCartModalOpen: state.scrtmdlpnrdcr.isCartModalOpen
+        isCartModalOpen: state.scrtmdlpnrdcr.isCartModalOpen,
+        cart: state.crtrdcr.cart
     }
 }
 

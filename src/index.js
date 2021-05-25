@@ -7,9 +7,11 @@ import { Provider } from 'react-redux';
 import { combineReducers, createStore } from 'redux';
 import { BrowserRouter } from 'react-router-dom';
 import isCartOpenReducer from './ShoppingCartProject/Store/Reducers/isCartModalOpenReducer';
+import cartReducer from './ShoppingCartProject/Store/Reducers/cartReducer';
 
 const rootReducer = combineReducers({
-  scrtmdlpnrdcr : isCartOpenReducer
+  scrtmdlpnrdcr : isCartOpenReducer,
+  crtrdcr: cartReducer
 })
 
 const store = createStore(rootReducer)

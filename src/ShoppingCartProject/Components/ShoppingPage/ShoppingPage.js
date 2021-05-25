@@ -3,13 +3,10 @@ import classes from './ShoppingPage.module.css';
 import Header from '../Header/Header';
 import ProductList from '../../Reusables/Products/Products';
 import Product from '../../Reusables/Product/Product';
-import pic from '../../../Images/Cart.PNG'
+import { connect } from 'react-redux';
+import * as actionTypes from '../../Store/ActionTypes/ActionTypes';
 
-const ShoppingPage = () => {
-
-    
-
-
+const ShoppingPage = (props) => {
     return (
         <Fragment>
             <Header />
@@ -24,6 +21,7 @@ const ShoppingPage = () => {
                                     price={element.productPrice} 
                                     keys={element.key} 
                                     source={element.productSource}
+                                    pushToCart={props.pushToCart}
                                 />
                             <div />
                             </Fragment>
@@ -35,5 +33,18 @@ const ShoppingPage = () => {
     )
 }
 
+const mapStateToProps = state => {
+    return {
 
-export default ShoppingPage 
+    }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        pushToCart: (name, quant) => dispatch({type: actionTypes.PUSH_TO_CART, name: name, quant: quant})
+    }
+}
+
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(ShoppingPage) 

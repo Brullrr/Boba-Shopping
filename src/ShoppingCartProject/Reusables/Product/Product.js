@@ -20,14 +20,14 @@ const Product = (props) => {
             setQuantity(newQuantity)
             
     }
-    console.log("Current quantity of "+ props.name + " is " + quantity)
+    
 
 
     const verify = () => {
         if(quantity <=0 || quantity >=11) {
-            alert("ERROR PLEASE REFRESH PAGE")
+            alert("Please add a quantity.")
         } else {
-            alert("SENT")
+            props.pushToCart(props.name, quantity);
         }
     }
 

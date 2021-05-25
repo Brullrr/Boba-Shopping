@@ -1,65 +1,73 @@
-import pic from '../../../Images/Cart.PNG';
-import picT from '../../../Images/HomeIcon.png';
+import BeerBoba from '../../../Images/BeerBoba.png';
+import EiffelBoba from '../../../Images/EiffelBoba.png';
+import FancyBoba from '../../../Images/FancyBoba.png';
+import IceCreamBoba from '../../../Images/IceCreamBoba.png';
+import MasonBoba from '../../../Images/MasonBoba.png';
+import MysteryBoba from '../../../Images/MysteryBoba.png';
+import PizzaBoba from '../../../Images/PizzaBoba.png';
+import PunchingBoba from '../../../Images/PunchingBoba.png';
+import RefreshingBoba from '../../../Images/RefreshingBoba.png';
+import TicTacToba from '../../../Images/TicTacToba.png';
 
 const ProductList = [
     {
-        productName: "Product One",
+        productName: "Beer Boba",
         productPrice: "4.50",
-        productSource: pic,
-        key: "1"
+        productSource: BeerBoba,
+        key: "1" 
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: picT,
+        productName: "Eiffel Boba",
+        productPrice: "5.00",
+        productSource: EiffelBoba,
         key: "2"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "Fancy Boba",
+        productPrice: "6.50",
+        productSource: FancyBoba,
         key: "3"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "IceCream Boba",
+        productPrice: "8.50",
+        productSource: IceCreamBoba,
         key: "4"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "Mason Boba",
+        productPrice: "3.00",
+        productSource: MasonBoba,
         key: "5"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "Mystery Boba",
+        productPrice: "5.00",
+        productSource: MysteryBoba,
         key: "6"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "Pizza Boba",
+        productPrice: "8.00",
+        productSource: PizzaBoba,
         key: "7"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "Punching Boba",
+        productPrice: "4.50",
+        productSource: PunchingBoba,
         key: "8"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "Refreshing Boba",
+        productPrice: "6.00",
+        productSource: RefreshingBoba,
         key: "9"
     },
     {
-        productName: "replace",
-        productPrice: "replace",
-        productSource: "replace",
+        productName: "Tic-Tac-Toba",
+        productPrice: "7.50",
+        productSource: TicTacToba,
         key: "10"
     },
 ]

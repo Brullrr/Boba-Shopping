@@ -1,1 +1,2 @@
 export const TOGGLE_CART_MODAL = 'TOGGLE_CART_MODAL';
+export const PUSH_TO_CART = "PUSH_TO_CART";
