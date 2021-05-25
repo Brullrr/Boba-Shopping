@@ -1,0 +1,9 @@
+.HomePageContainer {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    width: 100%;
+    background-color: rgb(179, 174, 156);
+    z-index: -1;
+    height: 100%;
+}

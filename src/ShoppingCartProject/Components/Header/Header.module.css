@@ -1,0 +1,91 @@
+.HeaderContainer {
+    position: fixed;
+    background-color: rgb(240, 248, 255);
+    border-bottom: 2px dashed black;
+    padding: 16px;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20% 15% 30% 15% 20%;
+    text-align: center;
+    z-index: 1;
+    height: 100px;
+    min-height: 100px;
+    padding: 8px;
+}
+
+.HomeButton {
+    padding: 8px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+
+}
+.HomeButton:hover {
+    transform: scale(1.1);
+    background-color: rgb(205, 231, 255);
+}
+.HomeImage {
+    height: 100%;
+    width: 100%;
+}
+
+.BrowseButton {
+    padding: 8px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 40px;
+    height: 80px;
+        
+}
+
+.BrowseButton:hover {
+    transform: scale(1.1);
+    background-color: rgb(205, 231, 255);
+}
+
+
+.CartButton {
+    position: relative;
+    padding: 8px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+   justify-self: end;
+    
+}
+
+.CartButton:hover {
+    transform: scale(1.1);
+    background-color: rgb(205, 231, 255);
+}
+
+.CartImage {
+    height: 100%;
+    width: 100%;
+
+}
+
+.CartNumber {
+    padding: 0px 0px 0px 0px;
+    margin: 13px 0px 0px 30px;
+    font-size: 20px;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 600px){
+    .BrowseButton {
+        font-size: 20px;
+    }
+}

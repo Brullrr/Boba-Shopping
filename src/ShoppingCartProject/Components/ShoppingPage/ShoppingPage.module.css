@@ -1,0 +1,18 @@
+.ShoppingContainer {
+    background-image: linear-gradient(to right, rgb(57, 80, 88), white, rgb(57, 80, 88));
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    row-gap: 30px;
+
+}
+
+@media screen and (max-width: 800px){
+    .ShoppingContainer {
+        grid-template-columns: 15% 70% 15%;
+    }
+
+}

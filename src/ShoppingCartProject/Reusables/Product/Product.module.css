@@ -1,0 +1,108 @@
+.ProductContainer {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 80% 10% 10%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.145);
+    border-radius: 16px;
+}
+
+.ProductImageHolder {
+    /* grid-area: 1; */
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ProductImage {
+    height: 100%;
+    width: 100%;
+}
+
+.ProductName {
+    color: black;
+    /* grid-area: b; */
+    grid-column: 1/2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 30px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+
+}
+
+.ProductPrice {
+    /* grid-area: c; */
+    
+    padding: 0px;
+    margin: 14px 0px 0px 0px;
+    font-size: 20px;
+    text-align: end;
+    padding-right: 2px;
+    line-height: 0px;
+}
+
+.ProductQandA {
+    display: grid;
+    grid-template-columns: 28% 22% 50%;
+    grid-column: 2/3;
+    grid-row: 3/4;  
+    margin: 0px;
+}
+
+
+
+
+.QuantityInput {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    padding-right: 5px;
+    border-radius: 4px;
+}
+
+.AddButton {
+    margin: 0px 0px 2px 0px;    
+    padding: 0px;
+    padding-right: 2px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(57, 80, 88);
+}
+
+.AddButton:hover {
+    color: white;
+    background-color: rgba(57, 80, 88, 0.391);
+}
+
+
+@media screen and (max-width: 800px){
+
+    .ProductContainer {
+        width: 70vw;
+        grid-template-columns: 35% 65%;
+    }
+    .ProductName {
+        font-size: 20px;
+    }
+    .ProductPrice{
+        font-size: 10px;
+
+    }
+    
+    .AddButton {
+        font-size: 10px;
+
+    }
+
+
+
+}
