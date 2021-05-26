@@ -24,7 +24,7 @@ const Product = (props) => {
 
 
     const verify = () => {
-        if(quantity <=0 || quantity >=11) {
+        if(quantity <=0 || quantity >=11 || quantity === "QNTY") {
             alert("Please add a quantity.")
         } else {
             props.pushToCart(props.name, quantity);

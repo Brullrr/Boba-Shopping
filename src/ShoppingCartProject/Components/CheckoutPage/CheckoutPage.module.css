@@ -1,0 +1,73 @@
+
+
+.CheckoutContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 100px;
+    left: 0%;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to bottom left, blanchedalmond 30% , white 45%);
+}
+
+.ItemizedHolder {
+    display: grid;
+    grid-template-columns: auto ;
+    
+}
+
+.ElementHolder {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+}
+
+.TotalDiv {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-weight: 900;
+}
+.TotalWords {
+    justify-self: end;
+}
+
+
+.UserInformationForm {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 15px;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+.CheckoutInput {
+    position: relative;
+    height: 62px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.SubmitButton {
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    background-color: blanchedalmond;
+    color: rgba(95, 158, 160, 0.501);
+    border-radius: 16px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.SubmitButton:hover {
+    transform: scale(1.1);
+    color: rgb(252, 212, 132);
+    background-color: rgba(95, 158, 160, 0.213);
+}
+
+
+@media screen and (max-width: 800px) {
+    .UserInformationForm {
+        margin-left: 15%;
+    }
+}

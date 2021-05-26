@@ -1,9 +1,65 @@
 .HomePageContainer {
     position: absolute;
     left: 0%;
-    top: 20%;
+    top: 100px;
     width: 100%;
-    background-color: rgb(179, 174, 156);
+    min-width: 250px;
+    background-image: linear-gradient(to right bottom, white 0%, orange 20%, white 50%, orange 70%);
     z-index: -1;
     height: 100%;
+    overflow-x: auto;
+}
+
+.Strip {
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    height: 10vh;
+    text-align: end;
+    font-size: 8vh;
+    z-index: 0;
+    padding: 0px 10% 0px 0%;
+}
+
+.NewBoba {
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    margin: 0px 0px 0px 0px ;
+    left: 0%;
+}
+
+.NewImg {
+    position: absolute;
+    height: 30vh;
+    width: 40vw;
+    left: 45%;
+    top: 10%;
+}
+
+.BobaShoppingIcon {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100px;
+    width: 30%;
+    z-index: 2;
+    background-color: rgb(240, 248, 255);
+    padding: 0;
+    margin: 0;
+    min-width: 100px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .NewBoba {
+        height: 100vh;
+        width: 40vw;
+    }
+
+    .Strip {
+        font-size: 6vh;
+        line-height: 150%;
+    }
 }

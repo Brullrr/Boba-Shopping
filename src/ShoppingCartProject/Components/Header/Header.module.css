@@ -1,9 +1,9 @@
 .HeaderContainer {
     position: fixed;
     background-color: rgb(240, 248, 255);
-    border-bottom: 2px dashed black;
     padding: 16px;
     width: 100%;
+    min-width: 250px;
     left: 0%;
     top: 0%;
     box-sizing: border-box;

@@ -2,17 +2,15 @@ import React, { Fragment} from 'react';
 import classes from './CartModal.module.css';
 import {connect} from 'react-redux';
 import * as actionTypes from '../../Store/ActionTypes/ActionTypes';
+import { Link } from 'react-router-dom';
 
 const CartModal = (props) => {
 
     let cart = props.cart;
     
-    
-
-
-
     let total = 0;
 
+    
     cart.forEach(element => {
         total = total + element.Quantity*parseFloat(element.Price, 10)
     });
@@ -44,7 +42,7 @@ const CartModal = (props) => {
                                     <div className={classes.ElementHolder}>
                                         <p className={classes.ItemName}>{element.ProductName}</p>
                                         <p className={classes.ItemAmount}>{element.Quantity}</p>
-                                        <p className={classes.ItemCostTotal}>{
+                                        <p className={classes.ItemCostTotal}>${
                                         element.Quantity*parseFloat(element.Price)} 
                                         {(element.Quantity*parseFloat(element.Price) + 0).toString().includes('.') ? 0 : null} </p>
                                     </div>
@@ -54,12 +52,9 @@ const CartModal = (props) => {
                     }
 
                     {total >= 1 ? totalTitle : null}
-
-
-
                     
                 </div>
-                {total >= 1 ? <button className={classes.CheckoutButton}>Checkout</button> : <p>Your cart is empty.</p>}
+                {total >= 1 ? <Link to="/Checkout"><button className={classes.CheckoutButton}>Checkout</button></Link> : <p>Your cart is empty.</p>}
 
             </div>
         </Fragment>

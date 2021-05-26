@@ -5,6 +5,7 @@ import HomePage from './Components/HomePage/HomePage';
 import { connect } from 'react-redux';
 import * as actionTypes from './Store/ActionTypes/ActionTypes';
 import { HashRouter, Route} from 'react-router-dom';
+import CheckoutPage from './Components/CheckoutPage/CheckoutPage';
 
 // import { Route } from 'react-router-dom'
 
@@ -17,6 +18,7 @@ const ShoppingCartProject = (props) => {
     let shoppingPage = <ShoppingPage />
     let cartModal = props.isCartModalOpen ? <CartModal backdropClicked={props.toggleCartModal} /> : null
     let homePage = <HomePage />
+    let checkoutPage = <CheckoutPage />
 
     
 
@@ -28,6 +30,7 @@ const ShoppingCartProject = (props) => {
             </div>
             <Route path='/Browse' exact render={ () => <div>{shoppingPage}</div>} />
             <Route path='/' exact render={ () => <div>{homePage}</div>} />
+            <Route path='/Checkout' exact render={ () => <div>{checkoutPage}</div>} />
         </HashRouter>
         
         
@@ -42,7 +45,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-    toggleCartModal: () => dispatch({type: actionTypes.TOGGLE_CART_MODAL})
+        toggleCartModal: () => dispatch({type: actionTypes.TOGGLE_CART_MODAL})
 
     }
 }
