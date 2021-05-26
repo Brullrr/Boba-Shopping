@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cbd2bb3597196b770c044f219f56df1",
+    "revision": "93fee2cde36eb1289c4d1de31bc278b2",
     "url": "/Boba-Shopping/index.html"
   },
   {
-    "revision": "620d6a7fbc18c450bbf4",
-    "url": "/Boba-Shopping/static/css/main.df8722b1.chunk.css"
+    "revision": "8ffa249b8e1fedec0520",
+    "url": "/Boba-Shopping/static/css/main.0d76be3b.chunk.css"
   },
   {
-    "revision": "e60c5d14e8050a796080",
-    "url": "/Boba-Shopping/static/js/2.8b95f355.chunk.js"
+    "revision": "bf45230f8e09c07de756",
+    "url": "/Boba-Shopping/static/js/2.c0631a68.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Boba-Shopping/static/js/2.8b95f355.chunk.js.LICENSE.txt"
+    "url": "/Boba-Shopping/static/js/2.c0631a68.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "620d6a7fbc18c450bbf4",
-    "url": "/Boba-Shopping/static/js/main.f408b973.chunk.js"
+    "revision": "8ffa249b8e1fedec0520",
+    "url": "/Boba-Shopping/static/js/main.68dc91fa.chunk.js"
   },
   {
     "revision": "831fdca50797234ff4c5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cac5ed2bd9ed50414f0ed35e3ae60d2f",
     "url": "/Boba-Shopping/static/media/BeerBoba.cac5ed2b.png"
+  },
+  {
+    "revision": "cdda4d3114f00bcf4858ee724444fd17",
+    "url": "/Boba-Shopping/static/media/BobaShopping.cdda4d31.PNG"
   },
   {
     "revision": "af5206e75d6e5a17644188903b2a8f86",
@@ -54,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b56d4c40e62e01d9ce056dd3d69d3e9d",
     "url": "/Boba-Shopping/static/media/MysteryBoba.b56d4c40.png"
+  },
+  {
+    "revision": "a5c0ccf5a4e776adb21f88343ae180c6",
+    "url": "/Boba-Shopping/static/media/MysteryBoba2.a5c0ccf5.png"
+  },
+  {
+    "revision": "eff2278acc89b6f2594b1f04793c21ab",
+    "url": "/Boba-Shopping/static/media/NEW.eff2278a.png"
   },
   {
     "revision": "a7147acce1c7ef0fa49739b228060c0f",

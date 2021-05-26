@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Boba-Shopping/static/css/main.df8722b1.chunk.css",
-    "main.js": "/Boba-Shopping/static/js/main.f408b973.chunk.js",
-    "main.js.map": "/Boba-Shopping/static/js/main.f408b973.chunk.js.map",
+    "main.css": "/Boba-Shopping/static/css/main.0d76be3b.chunk.css",
+    "main.js": "/Boba-Shopping/static/js/main.68dc91fa.chunk.js",
+    "main.js.map": "/Boba-Shopping/static/js/main.68dc91fa.chunk.js.map",
     "runtime-main.js": "/Boba-Shopping/static/js/runtime-main.58c8e85e.js",
     "runtime-main.js.map": "/Boba-Shopping/static/js/runtime-main.58c8e85e.js.map",
-    "static/js/2.8b95f355.chunk.js": "/Boba-Shopping/static/js/2.8b95f355.chunk.js",
-    "static/js/2.8b95f355.chunk.js.map": "/Boba-Shopping/static/js/2.8b95f355.chunk.js.map",
+    "static/js/2.c0631a68.chunk.js": "/Boba-Shopping/static/js/2.c0631a68.chunk.js",
+    "static/js/2.c0631a68.chunk.js.map": "/Boba-Shopping/static/js/2.c0631a68.chunk.js.map",
     "index.html": "/Boba-Shopping/index.html",
-    "precache-manifest.9db85b97beb29b8397fd22f67db54f1f.js": "/Boba-Shopping/precache-manifest.9db85b97beb29b8397fd22f67db54f1f.js",
+    "precache-manifest.e43aedf88f01def2bc91b169b0da4778.js": "/Boba-Shopping/precache-manifest.e43aedf88f01def2bc91b169b0da4778.js",
     "service-worker.js": "/Boba-Shopping/service-worker.js",
-    "static/css/main.df8722b1.chunk.css.map": "/Boba-Shopping/static/css/main.df8722b1.chunk.css.map",
-    "static/js/2.8b95f355.chunk.js.LICENSE.txt": "/Boba-Shopping/static/js/2.8b95f355.chunk.js.LICENSE.txt",
+    "static/css/main.0d76be3b.chunk.css.map": "/Boba-Shopping/static/css/main.0d76be3b.chunk.css.map",
+    "static/js/2.c0631a68.chunk.js.LICENSE.txt": "/Boba-Shopping/static/js/2.c0631a68.chunk.js.LICENSE.txt",
     "static/media/BeerBoba.png": "/Boba-Shopping/static/media/BeerBoba.cac5ed2b.png",
+    "static/media/BobaShopping.PNG": "/Boba-Shopping/static/media/BobaShopping.cdda4d31.PNG",
     "static/media/Cart.PNG": "/Boba-Shopping/static/media/Cart.af5206e7.PNG",
     "static/media/EiffelBoba.png": "/Boba-Shopping/static/media/EiffelBoba.11371db6.png",
     "static/media/FancyBoba.png": "/Boba-Shopping/static/media/FancyBoba.e1a8316f.png",
@@ -20,6 +21,8 @@
     "static/media/IceCreamBoba.png": "/Boba-Shopping/static/media/IceCreamBoba.f7df94d3.png",
     "static/media/MasonBoba.png": "/Boba-Shopping/static/media/MasonBoba.9347ff1e.png",
     "static/media/MysteryBoba.png": "/Boba-Shopping/static/media/MysteryBoba.b56d4c40.png",
+    "static/media/MysteryBoba2.png": "/Boba-Shopping/static/media/MysteryBoba2.a5c0ccf5.png",
+    "static/media/NEW.png": "/Boba-Shopping/static/media/NEW.eff2278a.png",
     "static/media/PizzaBoba.png": "/Boba-Shopping/static/media/PizzaBoba.a7147acc.png",
     "static/media/PunchingBoba.png": "/Boba-Shopping/static/media/PunchingBoba.643113a0.png",
     "static/media/RefreshingBoba.png": "/Boba-Shopping/static/media/RefreshingBoba.66d0cbbf.png",
@@ -27,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.58c8e85e.js",
-    "static/js/2.8b95f355.chunk.js",
-    "static/css/main.df8722b1.chunk.css",
-    "static/js/main.f408b973.chunk.js"
+    "static/js/2.c0631a68.chunk.js",
+    "static/css/main.0d76be3b.chunk.css",
+    "static/js/main.68dc91fa.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Boba-Shopping/precache-manifest.9db85b97beb29b8397fd22f67db54f1f.js"
+  "/Boba-Shopping/precache-manifest.e43aedf88f01def2bc91b169b0da4778.js"
 );
 
 self.addEventListener('message', (event) => {
