@@ -1,7 +1,7 @@
 .HomePageContainer {
     position: absolute;
     left: 0%;
-    top: 100px;
+    top: 0%;
     width: 100%;
     min-width: 250px;
     background-image: linear-gradient(to right bottom, white 0%, orange 20%, white 50%, orange 70%);
@@ -40,16 +40,31 @@
 
 .BobaShoppingIcon {
     position: fixed;
-    top: 0%;
-    left: 0%;
+    bottom: 5%;
+    right: 5%;
     height: 100px;
     width: 30%;
+    max-width: 250px;
     z-index: 2;
-    background-color: rgb(240, 248, 255);
+    background-color: rgba(255, 255, 255, 0.329);
     padding: 0;
     margin: 0;
     min-width: 100px;
-
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Arrow {
+    position: fixed;
+    bottom: 5%;
+    right: 25%;
+    height: 100px;
+    width: 20%;
+    max-width: 200px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    min-width: 100px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
@@ -61,5 +76,9 @@
     .Strip {
         font-size: 6vh;
         line-height: 150%;
+    }
+
+    .Arrow {
+        right: 38%
     }
 }
