@@ -20,17 +20,6 @@
     top: 20px;
 }
 
-.Label {
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1.3rem;
-    color: #fff;
-    padding: 0px 0px 0px 0px ;
-    margin: 8px 0px 0px 8px;
-}
-
 .Input:focus  {
     padding-bottom: 1px;
     border-width: 3px;
@@ -45,4 +34,55 @@
 
 .Input:focus::placeholder {
     font-size: 0rem;
+}
+
+.NotVerified {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-image: linear-gradient(to right, red, salmon);
+    border-image-slice: 1; 
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 20px 0px 0px 10px;
+    background: transparent;
+    transition: 0.2s;
+    height: 41px;
+    margin: -10px 0px 0px 0px;
+    position: absolute;
+}
+
+
+.NotVerified::placeholder {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.NotVerified:focus  {
+    padding-bottom: 1px;
+    border-width: 3px;
+    border-image: linear-gradient(to right, red, salmon);
+    border-image-slice: 1;   
+    background-color: #9b9b9b;
+    transition: .2s;
+    height: 40px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.NotVerified:focus::placeholder {
+    font-size: 0rem;
+}
+
+.Label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0px 0px 0px 0px ;
+    margin: 8px 0px 0px 8px;
 }

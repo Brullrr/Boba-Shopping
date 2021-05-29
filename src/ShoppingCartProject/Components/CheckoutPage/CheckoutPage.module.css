@@ -16,10 +16,22 @@
     
 }
 
+.ElementHolderTitle {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+}
+
 .ElementHolder {
     display: grid;
     grid-template-columns: 40% 20% 40%;
     text-align: center;
+}
+
+.ElementHolder:hover {
+    background-color: salmon;
+    border-radius: 16px;
+    cursor: pointer;
 }
 
 .TotalDiv {
@@ -50,9 +62,9 @@
 .SubmitButton {
     height: 60px;
     font-size: 25px;
-    border: none;
+    border: 1px solid rgba(95, 158, 160, 0.501);
     background-color: blanchedalmond;
-    color: rgba(95, 158, 160, 0.501);
+    color: rgb(95, 158, 160);
     border-radius: 16px;
     cursor: pointer;
     width: 50%;
@@ -61,13 +73,20 @@
 
 .SubmitButton:hover {
     transform: scale(1.1);
-    color: rgb(252, 212, 132);
+    color: rgb(250, 187, 62);
     background-color: rgba(95, 158, 160, 0.213);
+    border: 1px solid blanchedalmond;
+
 }
 
 
 @media screen and (max-width: 800px) {
     .UserInformationForm {
+        margin-left: 15%;
+    }
+
+    .SubmitButton {
+        min-width: 70%;
         margin-left: 15%;
     }
 }

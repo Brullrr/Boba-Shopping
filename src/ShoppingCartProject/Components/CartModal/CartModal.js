@@ -15,7 +15,7 @@ const CartModal = (props) => {
         total = total + element.Quantity*parseFloat(element.Price, 10)
     });
 
-    let itemizedTitle = <div className={classes.ElementHolder}>
+    let itemizedTitle = <div className={classes.ElementHolderTitle}>
                             <p className={classes.ItemName}>Product</p>
                             <p className={classes.ItemAmount}>Quantity</p>
                             <p className={classes.ItemCostTotal}>Product Total</p>
@@ -24,7 +24,9 @@ const CartModal = (props) => {
                             <p className={classes.TotalWords}>Total:</p><p className={classes.TotalCost}>${total}{total.toString().includes('.') ? 0 : null}</p>
                         </div>
 
-    
+    const removerHandler = (productName) => {
+        props.removeProduct(productName)
+    }
     return (
         <Fragment>
                 <div className={classes.Backdrop} onClick={props.toggleCartModal} />
@@ -36,18 +38,19 @@ const CartModal = (props) => {
 
                     {
                         cart.map((element) => {
-                            if(element.Quantity >= 1) {
-                                console.log(element.Quantity*parseFloat(element.Price).toString())
-                                return (
-                                    <div className={classes.ElementHolder}>
-                                        <p className={classes.ItemName}>{element.ProductName}</p>
-                                        <p className={classes.ItemAmount}>{element.Quantity}</p>
-                                        <p className={classes.ItemCostTotal}>${
-                                        element.Quantity*parseFloat(element.Price)} 
-                                        {(element.Quantity*parseFloat(element.Price) + 0).toString().includes('.') ? 0 : null} </p>
-                                    </div>
-                                )
+                            let elemental = null
+                            
+                            if(element.Quantity >= 1) {    
+                                elemental = <div key={element.ProductName} className={classes.ElementHolder}  onClick={() => {removerHandler(element.ProductName)}}>
+                                                <p className={classes.ItemName}>{element.ProductName}</p>
+                                                <p className={classes.ItemAmount}>{element.Quantity}</p>
+                                                <p className={classes.ItemCostTotal}>${
+                                                element.Quantity*parseFloat(element.Price)} 
+                                                {(element.Quantity*parseFloat(element.Price) + 0).toString().includes('.') ? 0 : null}</p>
+                                            </div>  
                             }
+
+                            return elemental
                         })
                     }
 
@@ -69,7 +72,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-    toggleCartModal: () => dispatch({type: actionTypes.TOGGLE_CART_MODAL})
+    toggleCartModal: () => dispatch({type: actionTypes.TOGGLE_CART_MODAL}),
+    removeProduct: (productName) => dispatch({type: actionTypes.REMOVE_PRODUCT, productName: productName})
 
     }
 }

@@ -34,7 +34,7 @@ const Product = (props) => {
     return (
         <div className={classes.ProductContainer}>
             <div className={classes.ProductImageHolder}>
-            <img className={classes.ProductImage}   src={props.source} />
+            <img className={classes.ProductImage}   src={props.source}  alt={props.source}/>
             </div>
             <p className={classes.ProductName} >{props.name}</p>    
             <div />        

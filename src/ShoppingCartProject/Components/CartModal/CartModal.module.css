@@ -57,7 +57,23 @@
     display: grid;
     grid-template-columns: 40% 20% 40%;
     text-align: center;
+    cursor: pointer;
 }
+.ElementHolderTitle {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+    cursor: pointer;
+}
+.ElementHolder:hover {
+    background-color: salmon;
+    border-radius: 4px;
+}
+
+.ElementHolder p {
+    margin: 5px 0px 0px 0px;
+}
+
 .ItemCostTotal {
     padding-left: 20px;
 }

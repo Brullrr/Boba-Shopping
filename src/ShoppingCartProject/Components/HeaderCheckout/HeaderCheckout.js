@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import classes from './Header.module.css';
+import classes from './HeaderCheckout.module.css';
 import cartIMG from '../../../Images/Cart.PNG';
 import homeIconIMG from '../../../Images/HomeIcon.png';
 import {connect} from 'react-redux';
@@ -7,7 +7,7 @@ import * as actionTypes from '../../Store/ActionTypes/ActionTypes';
 import { Link } from 'react-router-dom';
 
 
-const Header = (props) => {
+const HeaderCheckout = (props) => {
     let cartItemsNumber = 0
 
     props.cart.forEach(element => {
@@ -59,4 +59,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Header)
+export default connect(mapStateToProps, mapDispatchToProps)(HeaderCheckout)

@@ -14,8 +14,8 @@ const ShoppingPage = (props) => {
                 {
                     ProductList.map((element) => {
                         return (
-                            <Fragment>
-                                <div />
+                            <Fragment key={element.productName} >
+                                <div  />
                                 <Product 
                                     name={element.productName} 
                                     price={element.productPrice} 

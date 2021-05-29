@@ -71,6 +71,21 @@ const cartReducer = (state = initialState, action) => {
             cart: cartCopy
         }
     } 
+
+    if(action.type === actionTypes.REMOVE_PRODUCT) {
+        let cartCopy = [...state.cart]
+        cartCopy.forEach((element) => {
+            if(element.ProductName === action.productName){
+                element.Quantity = 0
+            }
+        })
+        return {
+            ...state,
+            cart: cartCopy
+        }
+    }
+
+
     return state
 };
 

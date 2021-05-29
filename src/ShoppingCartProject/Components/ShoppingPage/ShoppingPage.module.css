@@ -13,6 +13,7 @@
 @media screen and (max-width: 800px){
     .ShoppingContainer {
         grid-template-columns: 15% 70% 15%;
+        
     }
 
 }

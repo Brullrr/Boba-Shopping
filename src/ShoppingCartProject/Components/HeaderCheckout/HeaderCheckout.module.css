@@ -1,7 +1,7 @@
 .HeaderContainer {
     position: fixed;
     background-color: rgba(240, 248, 255, 0);
-    background-image: linear-gradient(to right, rgb(57, 80, 88), white, rgb(57, 80, 88));
+    background-image: linear-gradient(to left, blanchedalmond 60%, white 100%);
     padding: 16px;
     width: 100%;
     min-width: 250px;
@@ -53,6 +53,7 @@
 
 
 .CartButton {
+    display: none;
     position: relative;
     padding: 8px;
     background-color: rgba(240, 248, 255, 0);
