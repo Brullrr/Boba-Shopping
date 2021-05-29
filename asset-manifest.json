@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Boba-Shopping/static/css/main.48370553.chunk.css",
-    "main.js": "/Boba-Shopping/static/js/main.9bea1ff4.chunk.js",
-    "main.js.map": "/Boba-Shopping/static/js/main.9bea1ff4.chunk.js.map",
+    "main.css": "/Boba-Shopping/static/css/main.d3f65a1c.chunk.css",
+    "main.js": "/Boba-Shopping/static/js/main.a441f869.chunk.js",
+    "main.js.map": "/Boba-Shopping/static/js/main.a441f869.chunk.js.map",
     "runtime-main.js": "/Boba-Shopping/static/js/runtime-main.58c8e85e.js",
     "runtime-main.js.map": "/Boba-Shopping/static/js/runtime-main.58c8e85e.js.map",
-    "static/js/2.4c078ab8.chunk.js": "/Boba-Shopping/static/js/2.4c078ab8.chunk.js",
-    "static/js/2.4c078ab8.chunk.js.map": "/Boba-Shopping/static/js/2.4c078ab8.chunk.js.map",
+    "static/js/2.4baf7e71.chunk.js": "/Boba-Shopping/static/js/2.4baf7e71.chunk.js",
+    "static/js/2.4baf7e71.chunk.js.map": "/Boba-Shopping/static/js/2.4baf7e71.chunk.js.map",
     "index.html": "/Boba-Shopping/index.html",
-    "precache-manifest.b53016e2fec5525b61d0b8fbb42a2a00.js": "/Boba-Shopping/precache-manifest.b53016e2fec5525b61d0b8fbb42a2a00.js",
+    "precache-manifest.2fc57aa6c702c8681bd78990bb07c080.js": "/Boba-Shopping/precache-manifest.2fc57aa6c702c8681bd78990bb07c080.js",
     "service-worker.js": "/Boba-Shopping/service-worker.js",
-    "static/css/main.48370553.chunk.css.map": "/Boba-Shopping/static/css/main.48370553.chunk.css.map",
-    "static/js/2.4c078ab8.chunk.js.LICENSE.txt": "/Boba-Shopping/static/js/2.4c078ab8.chunk.js.LICENSE.txt",
+    "static/css/main.d3f65a1c.chunk.css.map": "/Boba-Shopping/static/css/main.d3f65a1c.chunk.css.map",
+    "static/js/2.4baf7e71.chunk.js.LICENSE.txt": "/Boba-Shopping/static/js/2.4baf7e71.chunk.js.LICENSE.txt",
     "static/media/BeerBoba.png": "/Boba-Shopping/static/media/BeerBoba.cac5ed2b.png",
     "static/media/BobaShopping.PNG": "/Boba-Shopping/static/media/BobaShopping.cdda4d31.PNG",
     "static/media/Cart.PNG": "/Boba-Shopping/static/media/Cart.af5206e7.PNG",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.58c8e85e.js",
-    "static/js/2.4c078ab8.chunk.js",
-    "static/css/main.48370553.chunk.css",
-    "static/js/main.9bea1ff4.chunk.js"
+    "static/js/2.4baf7e71.chunk.js",
+    "static/css/main.d3f65a1c.chunk.css",
+    "static/js/main.a441f869.chunk.js"
   ]
 }

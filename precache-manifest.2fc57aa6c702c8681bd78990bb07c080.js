@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a60b96e94e857298855fa4cabf743291",
+    "revision": "093208517bcc12f6ab56ea0be2173068",
     "url": "/Boba-Shopping/index.html"
   },
   {
-    "revision": "603135bdd8a19c298aaf",
-    "url": "/Boba-Shopping/static/css/main.48370553.chunk.css"
+    "revision": "3d03710e775319616e1c",
+    "url": "/Boba-Shopping/static/css/main.d3f65a1c.chunk.css"
   },
   {
-    "revision": "d73bc75cf2d104c20717",
-    "url": "/Boba-Shopping/static/js/2.4c078ab8.chunk.js"
+    "revision": "038796cfc3b10d44dbc4",
+    "url": "/Boba-Shopping/static/js/2.4baf7e71.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Boba-Shopping/static/js/2.4c078ab8.chunk.js.LICENSE.txt"
+    "url": "/Boba-Shopping/static/js/2.4baf7e71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "603135bdd8a19c298aaf",
-    "url": "/Boba-Shopping/static/js/main.9bea1ff4.chunk.js"
+    "revision": "3d03710e775319616e1c",
+    "url": "/Boba-Shopping/static/js/main.a441f869.chunk.js"
   },
   {
     "revision": "831fdca50797234ff4c5",
