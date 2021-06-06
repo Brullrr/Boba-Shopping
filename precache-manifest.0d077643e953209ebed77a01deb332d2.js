@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "093208517bcc12f6ab56ea0be2173068",
+    "revision": "1c984eb14579c5c183edaba394595f1f",
     "url": "/Boba-Shopping/index.html"
   },
   {
-    "revision": "3d03710e775319616e1c",
+    "revision": "b2c38b8033156b2d4057",
     "url": "/Boba-Shopping/static/css/main.d3f65a1c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Boba-Shopping/static/js/2.4baf7e71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d03710e775319616e1c",
-    "url": "/Boba-Shopping/static/js/main.a441f869.chunk.js"
+    "revision": "b2c38b8033156b2d4057",
+    "url": "/Boba-Shopping/static/js/main.2e53e426.chunk.js"
   },
   {
     "revision": "831fdca50797234ff4c5",
