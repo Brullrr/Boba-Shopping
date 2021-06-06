@@ -41,7 +41,7 @@ const CheckoutPage = (props) => {
             cardCSC: cardCSCState
         }
 
-        console.log(requestObject)
+        alert("Your order has been sent!")
     }
 
 
@@ -134,7 +134,7 @@ const CheckoutPage = (props) => {
                 
         cardCSCState.length <=2 || cardCSCState.length >=4 ?  sendRequest = false : verifyNum = verifyNum + 1
         
-        sendRequest && verifyNum === 8 ? sendRequestToServer() : alert("ERROR" )
+        sendRequest && verifyNum === 8 ? sendRequestToServer() : console.log("Order not filled out correctly")
         
         
         
